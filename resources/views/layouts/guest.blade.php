@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/owl.theme.default.min.css">
 <link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/animate.css">
 <link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/app.css">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -34,4 +35,5 @@
             </div>
         </div>
     </body> 
+    <script src="https://priod-production.up.railway.app/build/assets/js/app.js"></script>
 </html>
