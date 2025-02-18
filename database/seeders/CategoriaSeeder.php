@@ -15,14 +15,15 @@ class CategoriaSeeder extends Seeder
     public function run(): void
     {
 
-            // Desativar verificação de chaves estrangeiras
-    DB::statement('SET FOREIGN_KEY_CHECKS=0;');
-
+        // Desativa as verificações de chaves estrangeiras (PostgreSQL)
+    DB::statement('ALTER TABLE cursos DISABLE TRIGGER ALL;');
+ 
     // Truncar a tabela
     DB::table('categorias')->truncate();
 
-    // Reativar verificação de chaves estrangeiras
-    DB::statement('SET FOREIGN_KEY_CHECKS=1;');
+   
+    // Reabilita as verificações de chaves estrangeiras (PostgreSQL)
+    DB::statement('ALTER TABLE cursos ENABLE TRIGGER ALL;');
 
         //categoria::truncate();
 
