@@ -6,6 +6,12 @@
         <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>{{ config('app.name', 'Laravel') }}</title>
+            <!-- para retirar depois-->
+    <link rel="icon" href="https://priod-production.up.railway.app/build/assets/imgs/LOGO%20PRIOD.png" type="image/png">
+<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/styles.css">
+<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/animate.css">
+<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/bootstrap.min.css">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

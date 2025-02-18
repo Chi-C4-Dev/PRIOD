@@ -27,7 +27,7 @@
                         <a class="nav-link h-link" href="{{route('contacto')}}">Contacto</a>
                     </li>
                 </ul>
-
+ 
                 @auth
                 <button class="text-decoration-none w-full text-start border-0 bg-transparent" wire:click="logout" ><i class="bi bi-box-arrow-right"></i>
                     {{ __('Sair') }}

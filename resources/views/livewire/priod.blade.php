@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
 
     
-    @livewireStyles
+    @livewireStyles 
 </head>
 <body>
 
