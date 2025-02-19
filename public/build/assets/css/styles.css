@@ -179,4 +179,9 @@ body {
 
       .navbar-toggler-icon {
         background-color:#ff4136 !important;
+        color: #ff4136 !important;
+      }
+
+      .navbar-toggler-btn{
+        background-color:#ff4136 !important;
       }
