@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="{{route('inicio')}}">
-                <img src={{ asset('build/assets/imgs/logo.png')}} alt="PRIOD Logo" height="40">
+                <img src={{ asset('build/assets/imgs/logo.png') }} alt="PRIOD Logo" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler-btn">
                 <span class="navbar-toggler-icon"></span>
