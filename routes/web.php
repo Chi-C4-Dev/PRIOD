@@ -23,8 +23,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::view('/servicos', 'livewire.servicos')->name('servicos');
     Route::view('/sobre-o-priod', 'livewire.sobre')->name('sobre');
     Route::view('/contacto', 'livewire.contacto')->name('contacto');
-//}
-);
+//});
 
 
 
