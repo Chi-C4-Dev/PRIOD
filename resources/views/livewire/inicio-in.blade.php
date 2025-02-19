@@ -119,14 +119,17 @@
         <div class="container">
             <h2 class="text-center mb-5">Alguns Cursos</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                @foreach ($cursosDestaque as $curso)
+                @foreach ($cursosDestaque as $curso) 
                 <div class="col-md-4 mb-4">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">{{ $curso->nome }}</h5>
                             <p class="card-text"><i class="bi bi-clock"></i> Duração: {{ $curso->duracao }}</p>
                             <p class="card-text"><i class="bi bi-class"></i> Próxima Turma: {{ $curso->turma ?? 'Não definido.'}}</p>
-                            <a href="{{route('curso-detalhes')}}"class="btn btn-outline-primary-priod">Saiba Mais</a>
+                            <button wire:click="detalhesCurso({{ $curso->id }})" 
+                                        class="btn btn-primary-priod w-100">
+                                    Sobre o curso
+                                </button>
                         </div>
                     </div>
                 </div>
