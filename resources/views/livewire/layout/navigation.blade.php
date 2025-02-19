@@ -64,7 +64,7 @@ new class extends Component
                             </x-dropdown-link>
                         </button>
                     </x-slot>
-                </x-dropdown>
+                </x-dropdown> 
             </div>
 
             <!-- Hamburger -->

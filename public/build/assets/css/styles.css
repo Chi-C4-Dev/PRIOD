@@ -176,3 +176,7 @@ body {
         text-overflow: ellipsis;    /* Adiciona "..." ao final do texto truncado */
         max-width: 200px;           /* Define o limite de largura, ajustando conforme necessário */
       }
+
+      .navbar-toggler-icon {
+        background-color:#ff4136 !important;
+      }

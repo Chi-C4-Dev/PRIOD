@@ -7,15 +7,16 @@
 
         <title>{{ config('app.name', 'Laravel') }}</title>
 
-            <!-- para retirar depois-->
-    <link rel="icon" href="https://priod-production.up.railway.app/build/assets/imgs/LOGO%20PRIOD.png" type="image/png">
-<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/styles.css">
-<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/owl.theme.default.min.css">
-<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/animate.css">
-<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://priod-production.up.railway.app/build/assets/css/app.css">
+       <!-- para retirar depois-->
+       <link rel="icon" href="https://priod.up.railway.app/build/assets/imgs/LOGO%20PRIOD.png" type="image/png">
+<link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/styles.css">
+<link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/animate.css">
+<link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/app.css">
+<link rel="stylesheet" href="https://priod.up.railway.app/build/app-DEZZvcA.css">
 
-        <!-- Fonts -->
+        <!-- Fonts --> 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
@@ -35,5 +36,6 @@
             </div>
         </div>
     </body> 
-    <script src="https://priod-production.up.railway.app/build/assets/js/app.js"></script>
+    <script src="https://priod.up.railway.app/build/assets/js/app.js"></script>
+    <script src="https://priod.up.railway.app/build/app-z-Rg4TxU.js"></script>
 </html>
