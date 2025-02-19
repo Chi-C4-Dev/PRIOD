@@ -25,6 +25,10 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::view('/contacto', 'livewire.contacto')->name('contacto');
 //});
 
+// Dashboard (Protegido, mas acessível após login)
+Route::view('dashboard', 'dashboard')
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
 
 
 // Perfil (Acessível após login)
