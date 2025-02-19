@@ -14,12 +14,13 @@
 <link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://priod.up.railway.app/build/assets/css/app.css">
 <link rel="stylesheet" href="https://priod.up.railway.app/build/app-DEZZvcA.css">
+<script src="https://cdn.tailwindcss.com"></script>
         <!-- Fonts --> 
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+      <!--   @vite(['resources/css/app.css', 'resources/js/app.js'])-->
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
