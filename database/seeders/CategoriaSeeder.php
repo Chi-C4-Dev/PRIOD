@@ -14,22 +14,18 @@ class CategoriaSeeder extends Seeder
      */
     public function run(): void
     {
+        // Desativa restrições de chave estrangeira
+        DB::statement('SET CONSTRAINTS ALL DEFERRED;');
 
-        // Desativa as verificações de chaves estrangeiras (PostgreSQL)
-    DB::statement('ALTER TABLE cursos DISABLE TRIGGER ALL;');
- 
-    // Truncar a tabela
-    DB::table('categorias')->truncate();
+        // Limpa a tabela
+        DB::table('categorias')->truncate();
 
-   
-    // Reabilita as verificações de chaves estrangeiras (PostgreSQL)
-    DB::statement('ALTER TABLE cursos ENABLE TRIGGER ALL;');
+        // Reativa as restrições de chave estrangeira
+        DB::statement('SET CONSTRAINTS ALL IMMEDIATE;');
 
-        //categoria::truncate();
-
+        // Insere os dados
         Categoria::create(['nome' => 'Formação e Consultoria', 'descricao' => 'Capacitação e consultoria para indústria e público.']);
         Categoria::create(['nome' => 'Desenvolvimento de Softwares', 'descricao' => 'Softwares para diversos objetivos sociais.']);
         Categoria::create(['nome' => 'Manutenção e Network', 'descricao' => 'Manutenção técnica e configuração de redes.']);
-    
     }
 }
