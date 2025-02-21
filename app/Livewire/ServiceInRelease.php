@@ -6,8 +6,11 @@ use Livewire\Component;
 
 class ServiceInRelease extends Component
 {
+    public $categorias;
+
     public function render()
     {
-        return view('livewire.service-in-release');
+        $this ->categorias = categoria::with('servicos')->get();
+        return view('livewire.service-in-release', compact('categorias'));
     }
 }

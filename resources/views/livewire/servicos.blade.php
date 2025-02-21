@@ -1,5 +1,5 @@
 @extends('livewire.priod')
 @section('content')
-@livewire('servico-in') 
+@livewire('servico-in-release') 
 
 @endsection  
