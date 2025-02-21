@@ -17,3 +17,4 @@ class Servicos extends Component
         return view('livewire.servicos', compact('categorias'));
     }
 }
+ 

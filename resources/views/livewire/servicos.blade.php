@@ -1,4 +1,5 @@
 @extends('livewire.priod')
 @section('content')
-@livewire('servico-in')
-@endsection
+
+<h2>Funcionou!</h2>
+@endsection  
