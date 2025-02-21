@@ -21,7 +21,7 @@ class ServicoIn extends Component
     public function getServicos()
     {
        // Recupera categorias com seus serviços associados
-       $categorias = categoria::all();
+       $categorias = categoria::with('servicos')->get();
        $this-> categorias = $categorias;
     }
      
