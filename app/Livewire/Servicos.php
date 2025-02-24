@@ -10,11 +10,13 @@ class Servicos extends Component
 {
   
 
-    public function render()
+    public function render() 
     {
        
-        
-        return view('livewire.servicos');
+        $categorias = categoria::with('servicos')->get()
+        return view('livewire.servicos', [
+            'categorias' => $categorias
+        ]);
     }
 }
  

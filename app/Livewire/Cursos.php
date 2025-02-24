@@ -13,7 +13,7 @@ class Cursos extends Component
     
        
    
-    public function render() 
+    public function render()  
     {
           // Carrega os cursos ao iniciar
           $this->refreshCursos();
