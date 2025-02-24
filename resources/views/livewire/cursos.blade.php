@@ -9,12 +9,12 @@
 
             <!-- Campo de busca alinhado à direita -->
             <div class="row mb-4">
-            <div class="col-md-12 col-lg-12 col-sm-12">
+                
                     <div style=" display: inline-block;">
                         <input type="text" class="form-control" 
                                placeholder="Pesquisar cursos..." 
                                wire:model.live="searchTerm">
-                    </div>
+                  
                 </div>
             </div>
 
