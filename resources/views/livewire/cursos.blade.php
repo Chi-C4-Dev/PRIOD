@@ -10,7 +10,7 @@
             <!-- Campo de busca alinhado à direita -->
             <div class="row mb-4">
                 <div class="col-12 text-end">
-                    <div style="max-width: 300px; display: inline-block;">
+                    <div style=" display: inline-block;">
                         <input type="text" class="form-control" 
                                placeholder="Pesquisar cursos..." 
                                wire:model.live="searchTerm">
