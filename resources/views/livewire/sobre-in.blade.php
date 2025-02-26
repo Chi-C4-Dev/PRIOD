@@ -16,7 +16,7 @@
             <h2 class="text-center mb-4">Nossos Valores</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
-                    <div class="card h-100">
+                    <div class="card h-100"> 
                         <div class="card-body">
                             <h3 class="card-title"><i class="bi bi-star-fill text-primary-priod me-2"></i>Excelência</h3>
                             <p class="card-text">Buscamos a excelência em tudo o que fazemos, desde o conteúdo dos cursos até o atendimento aos alunos.</p>

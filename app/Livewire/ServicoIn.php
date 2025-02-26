@@ -13,16 +13,13 @@ class ServicoIn extends Component
     public function render()
     { 
         $this->getServicos();
-        return view('livewire.servico-in', [
-            'categorias' => $this->categorias
-        ]);
+        return view('livewire.servico-in'); 
     }
 
     public function getServicos()
     {
        // Recupera categorias com seus serviços associados
-       $categorias = categoria::with('servicos')->get();
-       $this-> categorias = $categorias;
+       $this-> categorias = Categoria::with('servicos')->get();
     }
      
 /*

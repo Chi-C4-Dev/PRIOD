@@ -3,6 +3,7 @@
 namespace App\Livewire;
 
 use App\Models\curso;
+use App\Models\categoria;
 use Livewire\Component;
 
 class Cursos extends Component
@@ -11,7 +12,6 @@ class Cursos extends Component
     public $searchTerm = ''; // Campo para o termo de busca
 
     
-       
    
     public function render()  
     {
@@ -26,8 +26,9 @@ class Cursos extends Component
         $this->cursos = Curso::when($this->searchTerm, function ($query) {
             $query->where('nome', 'like', '%' . $this->searchTerm . '%');
                 })->get();
+
     }
-    
+
     public function detalhesCurso($id)
     {
         // Validar e buscar o curso

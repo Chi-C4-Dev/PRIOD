@@ -6,7 +6,7 @@
                 <h1 class="display-4 fw-bold">Nossos Cursos</h1>
                 <p class="lead text-muted">O Conhecimento De Excelência Ao Alcance De Todos</p>
             </div>
-
+ 
             <!-- Campo de busca alinhado à direita -->
             <div class="row mb-4">
                 
@@ -50,6 +50,7 @@
                     </div>
                 @endforelse
             </div>
+
         </div>
     </section>
 </main>
