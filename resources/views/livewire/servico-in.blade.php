@@ -17,10 +17,10 @@
  
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4" id="servicesContainer">
                 <!-- Services will be dynamically inserted here -->
-                @isset($categorias)
-            @foreach ($categorias as $categoria)
+                
+            @forelse ($categorias as $categoria)
                 <div class="col">
-                    <div class="card h-100">
+                    <div class="card h-100"> 
                         <div class="card-body">
                             <div class="text-primary-priod mb-3">
                                 <i class="bi bi-folder fs-1"></i> <!-- Ícone padrão ou personalizado -->
@@ -42,10 +42,10 @@
                         </div>
                     </div>
                 </div>
-            @endforeach
-        @else
+            @empty
+        
             <p>Nenhuma categoria encontrada.</p>
-        @endisset
+        @endforelse
                 
                 
             </div>

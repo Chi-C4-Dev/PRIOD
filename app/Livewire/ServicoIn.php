@@ -13,7 +13,7 @@ class ServicoIn extends Component
     public function render()
     { 
         $this->getServicos();
-        return view('livewire.servico-in'); 
+        return view('livewire.servico-in');  
     }
 
     public function getServicos()
