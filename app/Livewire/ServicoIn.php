@@ -15,7 +15,7 @@ class ServicoIn extends Component
         $this->getServicos();
         return view('livewire.servico-in');  
     }
-
+ 
     public function getServicos()
     {
        // Recupera categorias com seus serviços associados
