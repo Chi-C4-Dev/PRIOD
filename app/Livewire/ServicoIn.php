@@ -21,8 +21,8 @@ class ServicoIn extends Component
        // Recupera categorias com seus serviços associados
       // $this-> categorias = Categoria::with('servicos')->get();
 
-         // Busca todas as categorias primeiro, sem carregar os serviços ainda
-    $this->categorias = Categoria::all();
+        // Busca todas as categorias primeiro, sem carregar os serviços ainda
+    $this->categorias = categoria::all();
 
     // Agora, carregamos os serviços apenas se as categorias existirem
     $this->categorias->load('servicos');
