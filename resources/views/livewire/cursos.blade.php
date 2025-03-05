@@ -15,7 +15,7 @@
                                placeholder="Pesquisar cursos..." 
                                wire:model.live="searchTerm">
                   
-                </div>
+                </div> 
             </div>
 
             <!-- Lista de cursos -->

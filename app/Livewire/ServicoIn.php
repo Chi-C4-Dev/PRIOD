@@ -6,7 +6,7 @@ use App\Models\categoria;
 use Livewire\Component;
 
 class ServicoIn extends Component
-{
+{ 
     public $categorias;
 
    
