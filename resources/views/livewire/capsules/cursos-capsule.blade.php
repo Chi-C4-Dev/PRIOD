@@ -1,7 +1,5 @@
 @extends('livewire.priod')
 @section('content')
-<div>
-    @livewire('test-curso')
-</div>
+@livewire('cursos')
 @endsection
  
