@@ -34,7 +34,7 @@ public function refreshCursos()
 {
             
    // Recupera categorias com seus serviços associados
-  $this-> categorias = categoria::with('servicos')->get();
+  $this-> categorias = categoria::all();
 
 }
 }
