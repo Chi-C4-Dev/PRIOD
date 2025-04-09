@@ -7,17 +7,17 @@ use Livewire\Component;
 
 class ServicoIn extends Component
 { 
-    //public $categorias;
+    public $categorias;
 
     
     public function render()
     { 
-        $categorias = categoria::all();
+        $this->categorias = categoria::with('servicos')->get();
 
-        return view('livewire.servico-in', compact('categorias'));  
+        return view('livewire.servico-in');  
     }
  
-    public function getServicos()
+   /* public function getServicos()
     {
        // Recupera categorias com seus serviços associados
       // $this-> categorias = Categoria::with('servicos')->get(); 
