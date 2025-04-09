@@ -7,13 +7,14 @@ use Livewire\Component;
 
 class ServicoIn extends Component
 { 
-    public $categorias;
+    //public $categorias;
 
     
     public function render()
     { 
-        $this->getServicos();
-        return view('livewire.servico-in');  
+        $categorias = categoria::all();
+
+        return view('livewire.servico-in', compact('categorias'));  
     }
  
     public function getServicos()
