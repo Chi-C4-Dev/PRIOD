@@ -20,7 +20,7 @@
                 
                 @forelse ($categorias as $categoria)
     <div class="col">
-        <div class="card h-100"> 
+        <div class="card h-100">  
             <div class="card-body">
                 <div class="text-primary-priod mb-3">
                     <i class="bi bi-folder fs-1"></i> <!-- Ícone padrão ou personalizado -->
