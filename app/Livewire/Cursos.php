@@ -13,7 +13,7 @@ class Cursos extends Component
 
     
    
-    public function render()  
+    public function render()   
     {
           // Carrega os cursos ao iniciar
           $this->refreshCursos();
@@ -23,7 +23,7 @@ class Cursos extends Component
     // Atualiza a lista de cursos com base no termo de busca
     public function refreshCursos()
     {
-        $this->cursos = Curso::when($this->searchTerm, function ($query) {
+        $this->cursos = curso::when($this->searchTerm, function ($query) {
             $query->where('nome', 'like', '%' . $this->searchTerm . '%');
                 })->get();
 
@@ -33,7 +33,7 @@ class Cursos extends Component
     public function detalhesCurso($id)
     {
         // Validar e buscar o curso
-        $curso = Curso::find($id);
+        $curso = curso::find($id);
 
         if (!$curso) {
             session()->flash('error', 'Curso não encontrado.');
