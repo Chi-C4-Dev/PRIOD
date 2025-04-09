@@ -1,6 +1,3 @@
- 
- @extends('livewire.priod')
- @section('content')
  <main>
     <section class="bg-primary-priod text-white py-5">
         <div class="container">
@@ -23,7 +20,7 @@
                 
                 @forelse ($categorias as $categoria)
     <div class="col">
-        <div class="card h-100">  
+        <div class="card h-100"> 
             <div class="card-body">
                 <div class="text-primary-priod mb-3">
                     <i class="bi bi-folder fs-1"></i> <!-- Ícone padrão ou personalizado -->
@@ -66,4 +63,3 @@
     </section>
 </main>
 
-@endsection 

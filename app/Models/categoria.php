@@ -13,15 +13,15 @@ class categoria extends Model
     protected $fillable = ['nome', 'descricao'];
 
     // Relacionamento com Serviços
-   /*
+  
     public function servicos()
     {
         return $this->hasMany(Servico::class);
-    } */
+    }  /*
     public function servicos()
     {
         return $this->hasMany(Servico::class, 'categoria_id', 'id');
-    }
+    }*/
 
 
     
