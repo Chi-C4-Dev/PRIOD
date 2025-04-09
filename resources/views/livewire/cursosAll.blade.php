@@ -1,2 +1,5 @@
-<h2>fucnionoiu</h2>
+@extends('livewire.priod')
+@section('content')
+@livewire('cursos')
+@endsection
  
