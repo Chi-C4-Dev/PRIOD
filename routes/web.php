@@ -14,7 +14,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 // Rotas Acessíveis a Visitantes (guest)
 //Route::middleware('guest')->group(function () {
     Route::prefix('cursos')->group(function () {
-        Route::view('/', 'livewire.capsules.cursos-capsule')->name('cursos');
+        Route::view('/', 'cursosAll')->name('cursos');
         Route::view('/detalhes/{id}', 'livewire.curso-detalhes')->name('curso-detalhe');
         Route::view('/detalhes', 'livewire.curso-detalhes')->name('curso-detalhes');
     });
