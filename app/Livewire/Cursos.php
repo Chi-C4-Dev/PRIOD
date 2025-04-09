@@ -10,7 +10,6 @@ class Cursos extends Component
 {
     public $cursos;
     public $searchTerm = ''; // Campo para o termo de busca
-    public $categorias;
 
     
    
@@ -28,10 +27,7 @@ class Cursos extends Component
             $query->where('nome', 'like', '%' . $this->searchTerm . '%');
                 })->get();
 
-                
-       // Recupera categorias com seus serviços associados
-      $this-> categorias = categoria::with('servicos')->get();
-
+        
     }
 
     public function detalhesCurso($id)

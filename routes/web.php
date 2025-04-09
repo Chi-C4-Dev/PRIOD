@@ -26,7 +26,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 //});
 
 // Dashboard (Protegido, mas acessível após login)
-Route::view('dashboard', 'dashboard')
+Route::view('dashboard', 'dashboard') 
     ->middleware(['auth', 'verified'])
     ->name('dashboard');
 
