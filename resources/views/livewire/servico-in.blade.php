@@ -1,3 +1,6 @@
+ 
+ @extends('livewire.priod')
+ @section('content')
  <main>
     <section class="bg-primary-priod text-white py-5">
         <div class="container">
@@ -63,3 +66,4 @@
     </section>
 </main>
 
+@endsection 
