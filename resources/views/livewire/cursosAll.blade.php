@@ -1,5 +1,2 @@
-@extends('livewire.priod')
-@section('content')
-<h1>funcionou</h1>
-@endsection
+<h2>fucnionoiu</h2>
  
