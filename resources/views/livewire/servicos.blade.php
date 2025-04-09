@@ -1,4 +1,4 @@
 @extends('livewire.priod')
 @section('content')
-@livewire('ServicoIn') 
+@livewire('servicoIn') 
 @endsection   
